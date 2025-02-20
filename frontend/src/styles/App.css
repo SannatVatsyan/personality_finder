@@ -1,0 +1,74 @@
+/* About Page Styling */
+
+.about-container {
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+}
+
+/* Hero Section */
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff9500, #ff2d55);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #d1d1d1;
+}
+
+/* About Sections */
+.about-section {
+  margin-top: 50px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+}
+
+.about-section:hover {
+  transform: scale(1.02);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #d1d1d1;
+}
+
+.about-section ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+.about-section ul li {
+  margin: 10px 0;
+  color: #ff9500;
+}
+
+body {
+  background: linear-gradient(120deg, #0f0f0f, #1c1c1e);
+  color: white;
+  font-family: 'SF Pro Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

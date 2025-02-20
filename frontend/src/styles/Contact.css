@@ -1,0 +1,65 @@
+/* Contact Page Styling */
+
+.contact-container {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contact-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff9500, #ff2d55);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-container p {
+    font-size: 1.2rem;
+    color: #d1d1d1;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #ff9500, #ff2d55);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(90deg, #ff2d55, #ff9500);
+    transform: scale(1.05);
+}

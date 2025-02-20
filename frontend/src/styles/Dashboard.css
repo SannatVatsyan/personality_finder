@@ -1,0 +1,169 @@
+/* 🌟 Dashboard Main Container */
+.dashboard-container {
+    padding-top: 100px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+/* 📌 Title - Apple Gradient */
+.dashboard-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, #ff9500, #ff2d55);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 🔄 Loading & Error Messages */
+.loading, .error-message {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loading {
+    color: #007aff; /* Apple Blue */
+}
+
+.error-message {
+    color: #ff3b30; /* Apple Red */
+}
+
+/* 🔹 Glassmorphism Card */
+.glassmorphism-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+}
+
+/* 🔮 Personality Type */
+.personality-type {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #ff9500, #ff2d55);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 🕰 Timestamp */
+.timestamp {
+    font-size: 14px;
+    color: #d1d1d6;
+    margin-top: 5px;
+}
+
+/* 📊 Chart Container */
+.chart-container {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 📈 Chart Title */
+.chart-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* 🎛 Dashboard Buttons */
+.dashboard-buttons {
+    margin-top: 20px;
+}
+
+.dashboard-buttons button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    margin: 10px;
+}
+
+/* ✅ Primary Button (Blue Gradient - Apple Style) */
+.primary-button {
+    background: linear-gradient(135deg, #007aff, #0051ff);
+    color: white;
+}
+
+.primary-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+/* 📌 Secondary Button (Pink Gradient - Apple Style) */
+.secondary-button {
+    background: linear-gradient(135deg, #ff2d55, #ff3b30);
+    color: white;
+}
+
+.secondary-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+/* 📤 Share Form */
+.share-form {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* 🔍 Share Form Inputs */
+.share-form input,
+.share-form select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.share-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* 🚀 Share Button */
+.share-button {
+    background: linear-gradient(90deg, #34c759, #28a745);
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.share-button:hover {
+    background: linear-gradient(90deg, #28a745, #34c759);
+    transform: scale(1.05);
+}
+
+/* 📌 Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
